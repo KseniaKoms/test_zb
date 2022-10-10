@@ -1,10 +1,11 @@
 import Icons from '../../images/icons.svg';
 import PropTypes from 'prop-types';
+import {Social } from './Icon.styled';
 
 const Icon = ({ name, color, width, height }) => (
-  <svg fill={color} width={width} height={height}>
+  <Social fill={color} width={width} height={height}>
     <use xlinkHref={`${Icons}#icon-${name}`} />
-  </svg>
+  </Social>
 );
 
 Icon.propTypes = {

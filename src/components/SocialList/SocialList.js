@@ -1,17 +1,13 @@
 import Icon from "../Icon";
-import PropTypes from 'prop-types';
+import { List, Item } from "./SocialList.styled";
 
 const SocialList = () => {
-    return <ul>
-    <li><Icon name="linkedin" width="13" height="13"/></li>
-    <li><Icon name="twitter" width="16" height="13"/></li>
-    <li><Icon name="facebook" width="9" height="16"/></li>
-    <li><Icon name="pinterest" width="12" height="15"/></li>
-</ul>
-}
-
-SocialList.propTypes = {
-    children: PropTypes.node,
+    return <List>
+    <Item><a href="https://www.linkedin.com/"><Icon name="linkedin" width="13" height="13"/></a></Item>
+    <Item><a href="https://twitter.com/home/"><Icon name="twitter" width="16" height="13"/></a></Item>
+    <Item><a href="https://www.facebook.com/"><Icon name="facebook" width="9" height="16"/></a></Item>
+    <Item><a href="https://www.pinterest.com/"><Icon name="pinterest" width="12" height="15"/></a></Item>
+</List>
 }
 
 export default SocialList;

@@ -1,15 +1,15 @@
 import Footer from "./components/Footer/Footer";
-import Form from "./components/Form";
-import SocialList from "./components/SocialList/SocialList";
-import Title from "./components/Title";
+import Main from "./components/Main";
+import PageContainer from "./components/PageContainer";
 
 
 function App() {
   return (
     <>
-    <Title title="Reach out to us!"/>
-    <Form/>
-    <Footer><SocialList/></Footer>
+    <PageContainer>
+    <Main/>
+    </PageContainer>
+    <Footer/>
     </>
   );
 }

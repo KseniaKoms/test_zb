@@ -1,12 +1,9 @@
 body {
-  margin: 0;
-
-}
-
-@media screen and (min-width: 1440px) {
-  body {
-    width: 1440px;
-  }
+  margin: 0 auto;
+  background-image: url('./images/png/clouds.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
 
 code {
@@ -20,18 +17,15 @@ code {
   font-weight: 400;
 }
 
-/* .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-  @media screen and (min-width: 1440px) {
-    width: 1440px;
-  }
-} */
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  display: block;
+}

@@ -1,11 +1,13 @@
+import {FooterBox, SmileGreen, PinkEllips} from './Footer.styled';
+import SocialList from '../SocialList/SocialList';
 
-import PropTypes from 'prop-types';
 
-const Footer = ({children}) => {
-return <footer>{children}</footer>
+const Footer = () => {
+return <FooterBox>
+<SocialList/>
+<SmileGreen/>
+<PinkEllips/>
+</FooterBox>
 }
 
-Footer.propTypes = {
-    children: PropTypes.node,
-}
 export default Footer;
