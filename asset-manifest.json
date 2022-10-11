@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f917e959.css",
-    "main.js": "/static/js/main.3fcfc7f4.js",
-    "static/media/ApercuArabicPro-Regular.ttf": "/static/media/ApercuArabicPro-Regular.d96e62b0b9abc2e551fc.ttf",
-    "static/media/ApercuArabicPro-Regular.woff": "/static/media/ApercuArabicPro-Regular.9e5cfe7ad055bc9bb902.woff",
-    "static/media/clouds.png": "/static/media/clouds.f8ee4f4f3899dcf80296.png",
-    "static/media/icons.svg": "/static/media/icons.4537d608d60fc0990df453e82f3c63b2.svg",
-    "index.html": "/index.html",
-    "main.f917e959.css.map": "/static/css/main.f917e959.css.map",
-    "main.3fcfc7f4.js.map": "/static/js/main.3fcfc7f4.js.map"
+    "main.css": "/test_zenbittech/static/css/main.f2ba9b79.css",
+    "main.js": "/test_zenbittech/static/js/main.f64b5f0a.js",
+    "static/media/ApercuArabicPro-Regular.ttf": "/test_zenbittech/static/media/ApercuArabicPro-Regular.d96e62b0b9abc2e551fc.ttf",
+    "static/media/ApercuArabicPro-Regular.woff": "/test_zenbittech/static/media/ApercuArabicPro-Regular.9e5cfe7ad055bc9bb902.woff",
+    "static/media/clouds.png": "/test_zenbittech/static/media/clouds.f8ee4f4f3899dcf80296.png",
+    "static/media/icons.svg": "/test_zenbittech/static/media/icons.4537d608d60fc0990df453e82f3c63b2.svg",
+    "index.html": "/test_zenbittech/index.html",
+    "main.f2ba9b79.css.map": "/test_zenbittech/static/css/main.f2ba9b79.css.map",
+    "main.f64b5f0a.js.map": "/test_zenbittech/static/js/main.f64b5f0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f917e959.css",
-    "static/js/main.3fcfc7f4.js"
+    "static/css/main.f2ba9b79.css",
+    "static/js/main.f64b5f0a.js"
   ]
 }
