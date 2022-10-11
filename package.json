@@ -1,10 +1,11 @@
 {
-  "name": "test_zb",
+  "name": "test_zenbittech",
   "version": "0.1.0",
   "engines": {
     "node": "14.15.5"
   },
   "private": true,
+  "homepage": "https://goitacademy.github.io/test_zenbittech/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
     "@testing-library/jest-dom": "^5.16.5",
